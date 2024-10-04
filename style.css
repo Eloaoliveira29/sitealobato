@@ -1,43 +1,51 @@
 *{
-    margin: 0;
+    margin: 0;   
     padding: 0;
-}
-:root{
-
-}
-.cabecalho{
-    background-color: #921A40;b
-    padding: 50px;
-}
-.corpo{
-    background-color: rgb(245, 146, 207);
-}
-.footer{
-    background-color: rgb(238, 23, 148);
-    
-}
-.boton{
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    padding: 10px 20px;
-    background-color: aliceblue;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    border-radius: 2px;
-}
-.boton:hover{
-    background-color: rgb(216, 35, 135);
-}
-.boton:active{
-    font-size: 10px;
-}
-h3{
-    text-align: center;
-}
-h2{
-    text-align: center;
-}
-h1{
-    text-align: center;
-}
+   }
+   :root{
+   
+   }
+   .cabecalho{
+       background-color: #d60969;
+       padding: 30px;
+   }
+   .corpo{
+       background-color: #ca428f;
+   }
+   .footer{
+       background-color: #e9559f;
+   }
+   .boton{
+       position: fixed;
+       top: 20px;
+       left: 20px;
+       padding: 10px 20px;
+       background-color:#ffffff ;
+       color: rgb(15, 7, 24);
+       text-decoration: none;
+       border-radius: 5px;
+   }
+   .boton:hover{
+       background-color: #a3017b;
+   }
+   .boton:active{
+       font-size: 20px;
+   }
+   h2{
+       text-align: center;
+   }
+   h3{
+       text-align: center;
+   }
+   .video-grid {
+       display: grid;
+       grid-template-columns: repeat(auto-fit, mimax(300px, 1fr)
+       gap: 20px;
+   }
+   .video-item { 
+       background-color: #f56dd3;
+       padding: 10px;
+       border-radius: 8px;
+       box-shadow: #D895DA;
+       height: 200px;
+   }
